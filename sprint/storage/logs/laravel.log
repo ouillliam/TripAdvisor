@@ -1,0 +1,43 @@
+[2020-10-01 12:58:41] local.ERROR: The "--port:8080" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--port:8080\" option does not exist. at /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php:198)
+[stacktrace]
+#0 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php(142): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php(76): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Command/Command.php(217): Symfony\\Component\\Console\\Input\\Input->bind()
+#4 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#5 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(920): Illuminate\\Console\\Command->run()
+#6 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(142): Symfony\\Component\\Console\\Application->doRun()
+#8 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#9 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#10 /home/ta-3-1/tripAdvisor/sprint/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2020-10-01 12:59:43] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php:169)
+[stacktrace]
+#0 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php(80): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Command/Command.php(217): Symfony\\Component\\Console\\Input\\Input->bind()
+#3 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#4 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(920): Illuminate\\Console\\Command->run()
+#5 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->doRunCommand()
+#6 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(142): Symfony\\Component\\Console\\Application->doRun()
+#7 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#8 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#9 /home/ta-3-1/tripAdvisor/sprint/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2020-10-01 13:02:02] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php:169)
+[stacktrace]
+#0 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/ArgvInput.php(80): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Command/Command.php(217): Symfony\\Component\\Console\\Input\\Input->bind()
+#3 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#4 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(920): Illuminate\\Console\\Command->run()
+#5 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->doRunCommand()
+#6 /home/ta-3-1/tripAdvisor/sprint/vendor/symfony/console/Application.php(142): Symfony\\Component\\Console\\Application->doRun()
+#7 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#8 /home/ta-3-1/tripAdvisor/sprint/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#9 /home/ta-3-1/tripAdvisor/sprint/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
